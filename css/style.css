@@ -1,6 +1,22 @@
+* {
+  box-sizing: border-box;
+}
 img {
   max-width: 100%;
   height: auto;
+}
+.header {
+  width: 100%;
+  align-items: center;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 50%;
+}
+.toggle i {
+  font-size: xx-large;
 }
 .container {
   position: relative;
@@ -14,6 +30,7 @@ img {
 }
 .slide {
   list-style: none;
+  position: absolute;
 }
 button {
   display: none;
