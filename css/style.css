@@ -1,0 +1,20 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+.slider-container {
+  position: absolute;
+  width: 100%;
+}
+.slide {
+  list-style: none;
+}
+button {
+  display: none;
+}
